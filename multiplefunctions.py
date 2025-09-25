@@ -48,7 +48,7 @@ class multipleFunctions:
             print(f"Subject{i} = ",m)
             marks.append(m)
         total = sum(marks)
-        percent = (total / (5 * 100)) * 100
+        percent = (total / 500) * 100
         print("Total :", total)
         print("Percentage :", percent)
 
@@ -70,4 +70,5 @@ class multipleFunctions:
         print("Breadth: ",breadth2)
         perimeter = height1 + height2 + breadth2
         print("Perimeter formula: Height1+Height2+Breadth")
+
         print("Perimeter of Triangle:", perimeter)
